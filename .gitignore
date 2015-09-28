@@ -1,2 +1,4 @@
-.env
+# IMPORTANT: add .env to gitignore!, or your env vars will be pushed into git!
+# .env
 __pycache__
+*.pyc
