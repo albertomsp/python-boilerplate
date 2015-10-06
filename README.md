@@ -2,14 +2,16 @@
 
 ## Overview
 
-Important: Don't forget uncomment the '.env' from .gitignore! If forgotten, your environment variables will be pushed with Git!
+Important: Don't forget uncommenting the '.env' from .gitignore! If forgotten, your environment variables will be pushed to the Git repository!
 
 ## How to run the application
 ```
-source .env && python main.py
+source .env
+PY_ENV=development python main.py
 ```
 
 ## Testing
 ```
-source .env && py.test tests/
+source .env 
+PY_ENV=testing py.test tests/
 ```
